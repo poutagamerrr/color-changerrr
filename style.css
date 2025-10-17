@@ -1,0 +1,32 @@
+/* Center content and add spacing */
+.container {
+  text-align: center;
+  margin-top: 80px;
+  font-family: Arial, sans-serif;
+}
+
+/* The color box */
+#color-box {
+  width: 200px;
+  height: 200px;
+  background-color: steelblue;
+  margin: 20px auto;
+  border-radius: 8px;
+  transition: background-color 0.3s ease;
+}
+
+/* The button */
+#change-color-btn {
+  background-color: #333;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+#change-color-btn:hover {
+  background-color: #555;
+}
